@@ -1,0 +1,47 @@
+{
+  "name": "eureka/component-template",
+  "description": "Template for new component & domain",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Component\\Template\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Eureka\\Component\\Template\\Tests\\": "./tests"
+    }
+  },
+
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+
+  "require": {
+    "php": ">=8.3"
+  },
+
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.95.2",
+    "phpstan/phpstan": "^2.1.55",
+    "phpstan/phpstan-deprecation-rules": "^2.0.4",
+    "phpstan/phpstan-phpunit": "^2.0.16",
+    "phpstan/phpstan-strict-rules": "^2.0.11",
+    "phpunit/phpcov": "^11.0.4",
+    "phpunit/phpunit": "^12.5.25",
+    "shipmonk/composer-dependency-analyser": "^1.8.4"
+  }
+}
