@@ -13,3 +13,7 @@ composer.lock
 #~ Overridden condigs
 phpstan.neon
 phpunit.xml
+
+#~ Example generated part
+example/*
+!example/.gitkeep
