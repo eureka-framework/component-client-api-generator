@@ -1,13 +1,13 @@
-# component-template
-[![Current version](https://img.shields.io/packagist/v/eureka/component-template.svg?logo=composer)](https://packagist.org/packages/eureka/component-template)
-[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=>%3D8.3&color=777bb4)](https://packagist.org/packages/eureka/component-template)
-![CI](https://github.com/eureka-framework/component-template/workflows/CI/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-template&metric=alert_status)](https://sonarcloud.io/dashboard?id=eureka-framework_component-template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-template&metric=coverage)](https://sonarcloud.io/dashboard?id=eureka-framework_component-template)
+# component-client-api-generator
+[![Current version](https://img.shields.io/packagist/v/eureka/component-client-api-generator.svg?logo=composer)](https://packagist.org/packages/eureka/component-client-api-generator)
+[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=>%3D8.3&color=777bb4)](https://packagist.org/packages/eureka/component-client-api-generator)
+![CI](https://github.com/eureka-framework/component-client-api-generator/workflows/CI/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-client-api-generator&metric=alert_status)](https://sonarcloud.io/dashboard?id=eureka-framework_component-client-api-generator)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-client-api-generator&metric=coverage)](https://sonarcloud.io/dashboard?id=eureka-framework_component-client-api-generator)
 
 ## Why?
 
-Template for new components
+Libs to generate Client API / SDK based on OpenApi json schema.
 
 
 
@@ -16,7 +16,7 @@ Template for new components
 If you wish to install it in your project, require it via composer:
 
 ```bash
-composer require eureka/component-template
+composer require eureka/component-client-api-generator
 ```
 
 

@@ -1,6 +1,6 @@
 {
-  "name": "eureka/component-template",
-  "description": "Template for new component & domain",
+  "name": "eureka/component-client-api-generator",
+  "description": "Libs to generate Client API / SDK based on openapi json schema.",
   "type": "library",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -14,12 +14,13 @@
 
   "autoload": {
     "psr-4": {
-      "Eureka\\Component\\Template\\": "./src"
+      "Eureka\\Component\\ClientApiGenerator\\": "./src",
+      "Eureka\\Component\\ClientApiGenerator\\Script\\": "./scripts"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Eureka\\Component\\Template\\Tests\\": "./tests"
+      "Eureka\\Component\\ClientApiGenerator\\Tests\\": "./tests"
     }
   },
 
@@ -31,17 +32,20 @@
   },
 
   "require": {
-    "php": ">=8.3"
+    "php": ">=8.3",
+    "cebe/php-openapi": "^1.0",
+    "eureka/component-console": "^7.0",
+    "nikic/php-parser": "^5.0"
   },
 
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.95.2",
-    "phpstan/phpstan": "^2.1.55",
+    "phpstan/phpstan": "^2.1.56",
     "phpstan/phpstan-deprecation-rules": "^2.0.4",
     "phpstan/phpstan-phpunit": "^2.0.16",
     "phpstan/phpstan-strict-rules": "^2.0.11",
     "phpunit/phpcov": "^11.0.4",
-    "phpunit/phpunit": "^12.5.25",
+    "phpunit/phpunit": "^12.5.28",
     "shipmonk/composer-dependency-analyser": "^1.8.4"
   }
 }

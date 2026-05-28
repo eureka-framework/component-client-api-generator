@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ```yaml
 ## [tag] - YYYY-MM-DD
-[tag]: https://github.com/eureka-framework/component-template/compare/1.0.0...master
+[tag]: https://github.com/eureka-framework/component-client-api-generator/compare/1.0.0...master
 ### Changed
 - Change 1
 ### Added
@@ -17,40 +17,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ----
 
-## [2.0.0] - 2026-01-05
-### Added
-- PHP 8.5 support
-### Removed
-- PHP support of versions < 8.3
-### Changed
-- Update Makefile
-- Update CI configs
-- Update dependencies
-
-----
-
-## [1.1.0] - 2023-03-15
-### Changed
-- Update Makefile
-- Update CI GitHub Action
-- Update composer.json
-- Now compatible with PHP 8.2
-
-## [1.0.2] - 2022-11-13
-### Changed
-- Update Makefile
-- Update CI GitHub Action
-- Update composer.json
-
-## [1.0.1] - 2022-06-12
-### Changed
-- Fix changelog template link
-- Update github workflow ci file
-
 ## [1.0.0] - 2022-06-12
 ### Added
-- Add phpstan for static analyze & php compatibility
-- Add Check compatibility with PHP 7.4 & 8.1 in CI
-- Add Makefile & .dist files for CI
-- Add Dummy Source & Dummy Test
-- Add GitHub CI file & sonar project file
+ - Add initial version of the component client API generator.

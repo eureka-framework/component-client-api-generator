@@ -78,3 +78,16 @@ clean:
 	@if [ "$(shell ls -A ./build)" ]; then rm -rf ./build/*; fi; echo " done"
 
 ci: clean validate install php/deps php/check php/tests php/integration php/min-compatibility php/max-compatibility php/analyze
+
+#################################################################################################################
+# Client API Generator
+
+generate/query-mercury:
+	$(call header,Generating Client API)
+	@./vendor/bin/console ClientApiGenerator/Script/Generator --debug --config=example/query-mercury/config.json
+	@XDEBUG_MODE=off ./vendor/bin/php-cs-fixer fix -q
+
+generate/artifacts-mmo:
+	$(call header,Generating Client API)
+	@./vendor/bin/console ClientApiGenerator/Script/Generator --debug --config=example/artifacts-mmo/config.json
+	@XDEBUG_MODE=off ./vendor/bin/php-cs-fixer fix -q

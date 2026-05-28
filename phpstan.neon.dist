@@ -11,6 +11,13 @@ parameters:
   paths:
     - ./src
     - ./tests
+    - ./scripts
 
   bootstrapFiles:
     - ./vendor/autoload.php
+
+  treatPhpDocTypesAsCertain: false
+  strictRules:
+    disallowedEmpty: false
+
+  ignoreErrors: []
